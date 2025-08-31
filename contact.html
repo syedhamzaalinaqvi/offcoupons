@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - OffCoupons</title>
+    
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="Get in touch with OffCoupons. We'd love to hear from you!">
+    <meta name="keywords" content="contact offcoupons, support, help, inquiries">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Contact Us - OffCoupons">
+    <meta property="og:description" content="Get in touch with OffCoupons. We'd love to hear from you!">
+    <meta property="og:image" content="/assets/images/og-image.jpg">
+    <meta property="og:url" content="https://offcoupons.com/contact.html">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header></header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Have a question or feedback? We'd love to hear from you!</p>
+            
+            <form class="contact-form" onsubmit="return validateContactForm(this)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer></footer>
+
+    <!-- Custom JavaScript -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
